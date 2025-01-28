@@ -1,32 +1,17 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
-.DS_STORE
-uv.lock
-.vscode
-
-# TypesScript-generated files
 node_modules
-package-lock.json
-
-# Virtual environments
-.venv
-
-# .env
 .env
 
-# Secrets
-secret/*
+# Hardhat files
+/cache
+/artifacts
 
-# Transactions
-response_data.json
+# TypeChain files
+/typechain
+/typechain-types
 
-# Examples
-examples
+# solidity-coverage files
+/coverage
+/coverage.json
 
-# Dev bin
-bin
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337
