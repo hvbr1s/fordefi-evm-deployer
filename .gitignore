@@ -1,0 +1,32 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.DS_STORE
+uv.lock
+.vscode
+
+# TypesScript-generated files
+node_modules
+package-lock.json
+
+# Virtual environments
+.venv
+
+# .env
+.env
+
+# Secrets
+secret/*
+
+# Transactions
+response_data.json
+
+# Examples
+examples
+
+# Dev bin
+bin
